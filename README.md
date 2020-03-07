@@ -23,10 +23,10 @@ The project has been built using **_Test Driven Development_(TDD)**, thus contai
 **POST** _/api/recipe/recipes_ (Add a recipe)  
 **GET** _/api/recipe/recipes_ (View recipes)  
 **GET** _/api/recipe/recipes/:recipe-id_ (View the particular recipe details)  
-**PUT/PATCH/DELETE** _/api/recipe/recipes/:recipe-id_ (Modify or delete the particular recipe details)  
-**POST**  _/api/recipe/recipes/:recipe-id/upload-image_ (Upload image for the particlar recipe)  
+**PUT/PATCH/DELETE** _/api/recipe/recipes/:recipe-id_ (Modify or delete the particular recipe-id details)  
+**POST**  _/api/recipe/recipes/:recipe-id/upload-image_ (Upload image for the particular recipe-id)  
 **GET** _/api/recipe/recipes/?tags=x&ingredients=y_ (Lists all recipes with tag-id=x and ingredient-id=y )  
-**GET** _/api/recipe/tags/?assigned-only=1_ (Lists only those tags which are used in atleast one recipe)  
+**GET** _/api/recipe/tags/?assigned_only=1_ (Lists only those tags which are used in atleast one recipe)  
 **GET** _/api/recipe/ingredients/?assigned_only=1_ (Lists only those ingredients which are used in atleast one recipe)  
 
 
